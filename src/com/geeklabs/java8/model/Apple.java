@@ -2,7 +2,6 @@ package com.geeklabs.java8.model;
 
 public class Apple {
     private String name;
-    private String city;
     private String place;
     private String color;
     private double price;
