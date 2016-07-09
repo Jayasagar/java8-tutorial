@@ -2,7 +2,7 @@ package com.geeklabs.java8.model;
 
 public class Apple {
     private String name;
-    private String place1;
+    private String city;
     private String color;
     private double price;
     private int weight;
@@ -12,7 +12,7 @@ public class Apple {
         this.color = color;
         this.price = price;
         this.weight = weight;
-        this.place1 = Hyd;
+        this.city = "Hyd";
     }
 
     public void setName(String name) {
