@@ -1,4 +1,4 @@
-package com.geeklabs.java8.model;
+package com.jay.java8.model;
 
 public class Apple {
     private String name;

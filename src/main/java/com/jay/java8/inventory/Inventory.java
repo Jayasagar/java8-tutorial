@@ -1,6 +1,6 @@
-package com.geeklabs.java8.inventory;
+package com.jay.java8.inventory;
 
-import com.geeklabs.java8.model.Apple;
+import com.jay.java8.model.Apple;
 
 import java.util.ArrayList;
 import java.util.List;
