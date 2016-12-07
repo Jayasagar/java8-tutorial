@@ -1,14 +1,28 @@
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 apply plugin: 'idea'
+apply plugin: "me.champeau.gradle.jmh"
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "me.champeau.gradle:jmh-gradle-plugin:0.3.1"
+    }
+}
 
 // In this section you declare where to find the dependencies of your project
 repositories {
     mavenCentral()
+
 }
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
+    jmh 'commons-io:commons-io:2.4'
     testCompile 'junit:junit:4.12'
     compileOnly "org.projectlombok:lombok:1.16.10"
     compile group: 'org.openjdk.jmh', name: 'jmh-core', version: '1.17.1'
