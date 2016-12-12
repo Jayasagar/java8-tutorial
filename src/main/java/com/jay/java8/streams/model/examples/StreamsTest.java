@@ -61,7 +61,7 @@ public class StreamsTest {
         // Example 4: Get all the unique cities of consumers
         getUniqueCities();
 
-        // Example 5: Are there any consumer living in Berlin>
+        // Example 5: Are there any consumer living in Berlin?
         isAnyConsumerInBerlin();
 
         // Example 6: Return all the consumer names as STRING and sorted alphabetically
